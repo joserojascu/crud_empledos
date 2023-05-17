@@ -1,4 +1,4 @@
-Clonar el repositorio: En la página del repositorio de GitHub, busca el botón "Code" y haz clic en él. Luego, copia la URL del repositorio. En tu entorno de desarrollo local, abre una terminal y ejecuta el siguiente comando para clonar el repositorio
+Clonar el repositorio: copia la URL del repositorio. En tu entorno de desarrollo local, abre una terminal y ejecuta el siguiente comando para clonar el repositorio
 
 git clone https://github.com/joserojascu/crud_empledos.git
 
