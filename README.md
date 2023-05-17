@@ -11,6 +11,8 @@ Esto instalará todas las dependencias necesarias definidas en el archivo compos
 Configurar archivo de entorno: Laravel utiliza un archivo .env para configurar variables de entorno. Debes crear una copia del archivo .env.example y renombrarla a .env. Luego, actualiza las configuraciones en el archivo .env según tu entorno local, como la conexión a la base de datos y otras variables.
 Generar clave de aplicación: Ejecuta el siguiente comando para generar una nueva clave
 
+
+
 php artisan key:generate
 
 Esto generará una clave única para tu aplicación Laravel.
