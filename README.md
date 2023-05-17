@@ -8,7 +8,7 @@ Instalar dependencias: En la terminal, navega hasta la carpeta del proyecto clon
 composer install
 
 Esto instalará todas las dependencias necesarias definidas en el archivo composer.json.
-Configurar archivo de entorno: Laravel utiliza un archivo .env para configurar variables de entorno. Debes crear una copia del archivo .env.example y renombrarla a .env. Luego, actualiza las configuraciones en el archivo .env según tu entorno local, como la conexión a la base de datos y otras variables.
+Configurar archivo de entorno: Laravel utiliza un archivo .env para configurar variables de entorno. Debes crear una copia del archivo .env.example y renombrarla a .env. Luego, actualiza las configuraciones en el archivo .env según tu entorno local, como la conexión a la base de datos.
 Generar clave de aplicación: Ejecuta el siguiente comando para generar una nueva clave
 
 
@@ -17,6 +17,8 @@ php artisan key:generate
 
 Esto generará una clave única para tu aplicación Laravel.
 Ejecutar migraciones de la base de datos: Si tu proyecto utiliza una base de datos, ejecuta el siguiente comando para ejecutar las migraciones y crear las tablas correspondientes:
+
+busca el archivo sql y ejecuta las consultas sql
 
 php artisan migrate
 
